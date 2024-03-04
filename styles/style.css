@@ -107,7 +107,6 @@ ol {
 }
 
 .search-form__label:hover {
-  text-decoration: underline 1px #fff;
   text-underline-offset: 3px;
 }
 
@@ -115,6 +114,7 @@ ol {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
+
 
 .search-form__textfield {
   background-color: transparent;
@@ -137,6 +137,8 @@ ol {
 
 .search-form__textfield:focus {
   outline: none;
+  text-decoration: none;
+  
 }
 
 .search-form__textfield:focus-visible {
@@ -202,6 +204,10 @@ ol {
   color: #fff;
   margin: 2px;
   display: block;
+}
+
+.content__card-link_current {
+  background: rgb(84 80 80);
 }
 
 .content__video-card:active {
