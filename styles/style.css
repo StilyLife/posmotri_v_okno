@@ -106,15 +106,14 @@ ol {
   width: fit-content;
 }
 
-.search-form__label:hover {
-  text-underline-offset: 3px;
-}
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+}
 
 .search-form__textfield {
   background-color: transparent;
@@ -138,7 +137,6 @@ ol {
 .search-form__textfield:focus {
   outline: none;
   text-decoration: none;
-  
 }
 
 .search-form__textfield:focus-visible {
